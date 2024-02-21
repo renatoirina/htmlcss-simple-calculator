@@ -6,14 +6,14 @@ img {
     max-width: 100%;
 }
 
-.calcbox {
+.calculator-box {
  display: flex;
  justify-content: center;
  align-items: center;
  height: 100vh;
 }
 
-.calcbox > section {
+.calculator-box > section {
     box-shadow: inset 5px 0px 10px rgb(208, 206, 206);
 }
 
@@ -35,3 +35,5 @@ img {
     color: #09d297;
     font-size: 35px;
 }
+
+/* TASTI DELLA CALCOLATRICE */
