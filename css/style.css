@@ -1,6 +1,37 @@
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    font-family: 'Seven Segment', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.calcbox {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.calcbox > section {
+    box-shadow: inset 5px 0px 10px rgb(208, 206, 206);
+}
+
+/* HEADER DELLA CALCOLATRICE*/
+.header {
+    background-color: rgb(238 238 238);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* SCHERMO DELLA CALCOLATRICE */
+.screen {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.screen .results {
+    color: #09d297;
+    font-size: 35px;
 }
