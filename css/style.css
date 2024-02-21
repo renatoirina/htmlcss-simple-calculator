@@ -44,14 +44,13 @@ img {
 
 /* TASTI DELLA CALCOLATRICE */
 .buttons {
-    font-family: 'Michroma', sans-serif;
     justify-content: space-evenly;
     display: flex;
     margin: 10px;
     height: 300px;
 }
 
-.numbers-box{ 
+.numbers-box { 
     display: flex;
     flex-wrap: wrap;
     width: 200px;
@@ -64,9 +63,10 @@ img {
     flex-wrap: wrap;
     width: 50px;
     flex-grow: 1;
-    margin: 5px;
-    text-align: center;
-    
+    margin: 10px;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* SFONDO E COLORAZIONE TASTI */
@@ -110,7 +110,6 @@ img {
 
 .number button {
     text-align: center;
-    margin: 5px;
     padding: 15px 20px;
 }
 
@@ -129,5 +128,7 @@ img {
 .operation span {
     font-family: 'Michroma', sans-serif;
     text-align: center;
-    padding: 10px;
+    height: 37px;
+    width: 37px;
+    padding: 5px;
 }
